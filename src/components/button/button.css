@@ -1,7 +1,10 @@
-/* Import all required variables */
-@import url('../../styles/index.css');
+/* Import primitive variables first */
+@import url('../../styles/primitives-variables/root.css');
+@import url('../../styles/primitives-variables/primitive-variables.css');
 
-/* Import component variables */
+/* Then import semantic and component variables */
+@import url('../../styles/semantics-variables/index.css');
+@import url('../../styles/component-variables/component-variables.css');
 @import '../../styles/component-variables/button-variables.css';
 
 :host {
@@ -9,33 +12,33 @@
 }
 
 /* Debug styles */
-:host::after {
+/* :host::after {
   content: 'Theme: ' attr(data-theme) ' Mode: ' attr(data-mode) ' Color: ' var(--button-bg-color);
   position: absolute;
   bottom: -20px;
   left: 0;
   font-size: 10px;
   white-space: nowrap;
-}
+} */
 
-button {
-  /* Fallback styles for debugging */
-  background-color: pink;
-  color: black;
-  
+button {  
   /* Component variables */
-  background-color: var(--button-bg-color, red);
-  color: var(--button-text-color, white);
-  font-family: var(--button-font-family, system-ui);
+  background-color: var(--button-primary-main-container-fill-default, red);
+  color: var(--button-primary-button-label-fill-default, white);
+  font-family: var(--text-label-font-family, var(--font-family-base));
   font-size: var(--button-font-size, 16px);
   font-weight: var(--button-font-weight, 500);
   padding: var(--button-padding, 8px 16px);
-  border-radius: var(--button-border-radius, 4px);
+  border-radius: var(--button-primary-main-container-border-radius);
   border: var(--button-border-width, 0) solid var(--button-border-color, transparent);
   cursor: pointer;
   transition: all var(--transition-normal, 0.3s) var(--transition-timing-ease, ease-in-out);
   box-shadow: var(--button-shadow, none);
   outline: none;
+  font-size: var(--text-font-size-label-sm, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--text-line-height-label-sm, 16px)
 }
 
 button:hover:not(:disabled) {

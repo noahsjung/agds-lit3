@@ -1,0 +1,173 @@
+@import url('./semantics-variables/text-variables.css');
+
+/* Display Styles */
+.display .xl-regular {
+  font-family: var(--display-xl-regular-font-family);
+  font-weight: var(--display-xl-regular-font-weight);
+  font-size: var(--display-xl-regular-font-size);
+  letter-spacing: var(--display-xl-regular-letter-spacing);
+  line-height: var(--display-xl-regular-line-height);
+  font-style: var(--display-xl-regular-font-style);
+}
+
+.display .lg-regular {
+  font-family: var(--display-lg-regular-font-family);
+  font-weight: var(--display-lg-regular-font-weight);
+  font-size: var(--display-lg-regular-font-size);
+  letter-spacing: var(--display-lg-regular-letter-spacing);
+  line-height: var(--display-lg-regular-line-height);
+  font-style: var(--display-lg-regular-font-style);
+}
+
+.display .md-regular {
+  font-family: var(--display-md-regular-font-family);
+  font-weight: var(--display-md-regular-font-weight);
+  font-size: var(--display-md-regular-font-size);
+  letter-spacing: var(--display-md-regular-letter-spacing);
+  line-height: var(--display-md-regular-line-height);
+  font-style: var(--display-md-regular-font-style);
+}
+
+.display .sm-regular {
+  font-family: var(--display-sm-regular-font-family);
+  font-weight: var(--display-sm-regular-font-weight);
+  font-size: var(--display-sm-regular-font-size);
+  letter-spacing: var(--display-sm-regular-letter-spacing);
+  line-height: var(--display-sm-regular-line-height);
+  font-style: var(--display-sm-regular-font-style);
+}
+
+/* Heading Styles */
+.heading .xxl-medium {
+  font-family: var(--heading-xxl-medium-font-family);
+  font-weight: var(--heading-xxl-medium-font-weight);
+  font-size: var(--heading-xxl-medium-font-size);
+  letter-spacing: var(--heading-xxl-medium-letter-spacing);
+  line-height: var(--heading-xxl-medium-line-height);
+  font-style: var(--heading-xxl-medium-font-style);
+}
+
+.heading .xl-medium {
+  font-family: var(--heading-xl-medium-font-family);
+  font-weight: var(--heading-xl-medium-font-weight);
+  font-size: var(--heading-xl-medium-font-size);
+  letter-spacing: var(--heading-xl-medium-letter-spacing);
+  line-height: var(--heading-xl-medium-line-height);
+  font-style: var(--heading-xl-medium-font-style);
+}
+
+.heading .lg-medium {
+  font-family: var(--heading-lg-medium-font-family);
+  font-weight: var(--heading-lg-medium-font-weight);
+  font-size: var(--heading-lg-medium-font-size);
+  letter-spacing: var(--heading-lg-medium-letter-spacing);
+  line-height: var(--heading-lg-medium-line-height);
+  font-style: var(--heading-lg-medium-font-style);
+}
+
+/* Subheading Styles */
+.subheading .lg-regular {
+  font-family: var(--subheading-lg-regular-font-family);
+  font-weight: var(--subheading-lg-regular-font-weight);
+  font-size: var(--subheading-lg-regular-font-size);
+  letter-spacing: var(--subheading-lg-regular-letter-spacing);
+  line-height: var(--subheading-lg-regular-line-height);
+  font-style: var(--subheading-lg-regular-font-style);
+}
+
+.subheading .lg-medium {
+  font-family: var(--subheading-lg-medium-font-family);
+  font-weight: var(--subheading-lg-medium-font-weight);
+  font-size: var(--subheading-lg-medium-font-size);
+  letter-spacing: var(--subheading-lg-medium-letter-spacing);
+  line-height: var(--subheading-lg-medium-line-height);
+  font-style: var(--subheading-lg-medium-font-style);
+}
+
+/* Body Styles */
+.body .xxl-regular {
+  font-family: var(--body-xxl-regular-font-family);
+  font-weight: var(--body-xxl-regular-font-weight);
+  font-size: var(--body-xxl-regular-font-size);
+  letter-spacing: var(--body-xxl-regular-letter-spacing);
+  line-height: var(--body-xxl-regular-line-height);
+  font-style: var(--body-xxl-regular-font-style);
+}
+
+.body .xl-regular {
+  font-family: var(--body-xl-regular-font-family);
+  font-weight: var(--body-xl-regular-font-weight);
+  font-size: var(--body-xl-regular-font-size);
+  letter-spacing: var(--body-xl-regular-letter-spacing);
+  line-height: var(--body-xl-regular-line-height);
+  font-style: var(--body-xl-regular-font-style);
+}
+
+/* Label Styles */
+.label .lg-regular {
+  font-family: var(--label-lg-regular-font-family);
+  font-weight: var(--label-lg-regular-font-weight);
+  font-size: var(--label-lg-regular-font-size);
+  letter-spacing: var(--label-lg-regular-letter-spacing);
+  line-height: var(--label-lg-regular-line-height);
+  font-style: var(--label-lg-regular-font-style);
+}
+
+.label .lg-medium {
+  font-family: var(--label-lg-medium-font-family);
+  font-weight: var(--label-lg-medium-font-weight);
+  font-size: var(--label-lg-medium-font-size);
+  letter-spacing: var(--label-lg-medium-letter-spacing);
+  line-height: var(--label-lg-medium-line-height);
+  font-style: var(--label-lg-medium-font-style);
+}
+
+/* Link Styles */
+.link .lg-regular {
+  font-family: var(--link-lg-regular-font-family);
+  font-weight: var(--link-lg-regular-font-weight);
+  font-size: var(--link-lg-regular-font-size);
+  letter-spacing: var(--link-lg-regular-letter-spacing);
+  line-height: var(--link-lg-regular-line-height);
+  font-style: var(--link-lg-regular-font-style);
+}
+
+.link .md-regular {
+  font-family: var(--link-md-regular-font-family);
+  font-weight: var(--link-md-regular-font-weight);
+  font-size: var(--link-md-regular-font-size);
+  letter-spacing: var(--link-md-regular-letter-spacing);
+  line-height: var(--link-md-regular-line-height);
+  font-style: var(--link-md-regular-font-style);
+}
+
+/* Value Styles */
+.value .lg-demi {
+  font-family: var(--value-lg-demi-font-family);
+  font-weight: var(--value-lg-demi-font-weight);
+  font-size: var(--value-lg-demi-font-size);
+  letter-spacing: var(--value-lg-demi-letter-spacing);
+  line-height: var(--value-lg-demi-line-height);
+  font-style: var(--value-lg-demi-font-style);
+}
+
+/* Marlo-specific styles */
+.display .xl-bold {
+  font-family: var(--display-xl-bold-font-family);
+  font-weight: var(--display-xl-bold-font-weight);
+  font-size: var(--display-xl-bold-font-size);
+  letter-spacing: var(--display-xl-bold-letter-spacing);
+  line-height: var(--display-xl-bold-line-height);
+  font-style: var(--display-xl-bold-font-style);
+}
+
+.display .lg-italic {
+  font-family: var(--display-lg-italic-font-family);
+  font-weight: var(--display-lg-italic-font-weight);
+  font-size: var(--display-lg-italic-font-size);
+  letter-spacing: var(--display-lg-italic-letter-spacing);
+  line-height: var(--display-lg-italic-line-height);
+  font-style: var(--display-lg-italic-font-style);
+}
+
+/* Continue with other Marlo-specific styles... */

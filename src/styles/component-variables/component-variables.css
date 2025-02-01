@@ -1,0 +1,91 @@
+/**
+ * Generated from:
+ * - token_agds-components_Mode.json
+ * Generated on: 2025-02-01T18:18:33.728Z
+ */
+
+@import url('../primitives-variables/index.css');
+@import url('../semantics-variables/index.css');
+
+
+/* BUTTON Component Variables
+ * These variables are specific to the button component and its variants.
+ */
+:root[data-theme][data-mode],
+*[data-theme][data-mode] {
+  --button-primary-button-label-fill-active: var(--foreground-on-brand-active);
+  --button-primary-button-label-fill-default: var(--foreground-on-brand-default);
+  --button-primary-button-label-fill-disabled: var(--foreground-on-brand-disabled);
+  --button-primary-button-label-fill-focus: var(--foreground-on-brand-focus);
+  --button-primary-button-label-fill-hover: var(--foreground-on-brand-hover);
+  --button-primary-component-name: button/primary;
+  --button-primary-focus-ring-border-width: var(--border-width-base);
+  --button-primary-focus-ring-corner-radius: var(--corner-radius-pill);
+  --button-primary-focus-ring-fill: var(--border-focus-ring);
+  --button-primary-focus-ring-spacing: var(--border-focus-ring-spacing);
+  --button-primary-leading-icon-fill-active: var(--foreground-on-brand-active);
+  --button-primary-leading-icon-fill-default: var(--foreground-on-brand-default);
+  --button-primary-leading-icon-fill-disabled: var(--foreground-on-brand-disabled);
+  --button-primary-leading-icon-fill-focus: var(--foreground-on-brand-focus);
+  --button-primary-leading-icon-fill-hover: var(--foreground-on-brand-hover);
+  --button-primary-leading-icon-height: var(--icon-size-sm);
+  --button-primary-leading-icon-width: var(--icon-size-sm);
+  --button-primary-main-container-border-radius: var(--corner-radius-pill);
+  --button-primary-main-container-fill-active: var(--background-brand-active);
+  --button-primary-main-container-fill-default: var(--background-brand-default);
+  --button-primary-main-container-fill-disabled: var(--background-brand-disabled);
+  --button-primary-main-container-fill-focus: var(--background-brand-default);
+  --button-primary-main-container-fill-hover: var(--background-brand-hover);
+  --button-primary-main-container-gap: var(--spacing-sm);
+  --button-primary-main-container-height: var(--sizing-xxxl);
+  --button-primary-main-container-padding-left: var(--spacing-lg);
+  --button-primary-main-container-padding-right: var(--spacing-lg);
+  --button-primary-trailing-icon-fill-active: var(--foreground-on-brand-active);
+  --button-primary-trailing-icon-fill-default: var(--foreground-on-brand-default);
+  --button-primary-trailing-icon-fill-disabled: var(--foreground-on-brand-disabled);
+  --button-primary-trailing-icon-fill-focus: var(--foreground-on-brand-focus);
+  --button-primary-trailing-icon-fill-hover: var(--foreground-on-brand-hover);
+  --button-primary-trailing-icon-height: var(--icon-size-sm);
+  --button-primary-trailing-icon-width: var(--icon-size-sm);
+  --button-primary-version: 1.2.0;
+  --button-secondary-button-label-fill-active: var(--foreground-on-brand-inverse-active);
+  --button-secondary-button-label-fill-default: var(--foreground-on-brand-inverse-default);
+  --button-secondary-button-label-fill-disabled: var(--foreground-on-brand-inverse-disabled);
+  --button-secondary-button-label-fill-focus: var(--foreground-on-brand-inverse-focus);
+  --button-secondary-button-label-fill-hover: var(--foreground-on-brand-inverse-hover);
+  --button-secondary-component-name: button/primary;
+  --button-secondary-focus-ring-border-width: var(--border-width-base);
+  --button-secondary-focus-ring-corner-radius: var(--corner-radius-pill);
+  --button-secondary-focus-ring-fill: var(--border-focus-ring);
+  --button-secondary-focus-ring-spacing: var(--border-focus-ring-spacing);
+  --button-secondary-leading-icon-fill-active: var(--foreground-on-brand-inverse-active);
+  --button-secondary-leading-icon-fill-default: var(--foreground-on-brand-inverse-default);
+  --button-secondary-leading-icon-fill-disabled: var(--foreground-on-brand-inverse-disabled);
+  --button-secondary-leading-icon-fill-focus: var(--foreground-on-brand-inverse-focus);
+  --button-secondary-leading-icon-fill-hover: var(--foreground-on-brand-inverse-hover);
+  --button-secondary-leading-icon-height: var(--icon-size-sm);
+  --button-secondary-leading-icon-width: var(--icon-size-sm);
+  --button-secondary-main-container-border-color-default: var(--border-brand-inverse-default);
+  --button-secondary-main-container-border-color-disabled: var(--border-brand-inverse-disabled);
+  --button-secondary-main-container-border-color-focus: var(--border-brand-inverse-focus);
+  --button-secondary-main-container-border-radius: var(--corner-radius-pill);
+  --button-secondary-main-container-border-width: var(--border-width-base);
+  --button-secondary-main-container-fill-active: var(--background-brand-inverse-active);
+  --button-secondary-main-container-fill-default: var(--background-brand-inverse-default);
+  --button-secondary-main-container-fill-disabled: var(--background-brand-inverse-disabled);
+  --button-secondary-main-container-fill-focus: var(--background-brand-inverse-focus);
+  --button-secondary-main-container-fill-hover: var(--background-brand-inverse-hover);
+  --button-secondary-main-container-gap: var(--spacing-sm);
+  --button-secondary-main-container-height: var(--sizing-xxxl);
+  --button-secondary-main-container-padding-left: var(--spacing-lg);
+  --button-secondary-main-container-padding-right: var(--spacing-lg);
+  --button-secondary-trailing-icon-fill-active: var(--foreground-on-brand-inverse-active);
+  --button-secondary-trailing-icon-fill-default: var(--foreground-on-brand-inverse-default);
+  --button-secondary-trailing-icon-fill-disabled: var(--foreground-on-brand-inverse-disabled);
+  --button-secondary-trailing-icon-fill-focus: var(--foreground-on-brand-inverse-focus);
+  --button-secondary-trailing-icon-fill-hover: var(--foreground-on-brand-inverse-hover);
+  --button-secondary-trailing-icon-height: var(--icon-size-sm);
+  --button-secondary-trailing-icon-width: var(--icon-size-sm);
+  --button-secondary-version: 1.2.0;
+}
+

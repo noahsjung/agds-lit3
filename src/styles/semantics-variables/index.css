@@ -6,3 +6,7 @@
 
 /* Import display variables */
 @import url('./display.css'); 
+@import url('./display-semantic-variables.css');
+
+/* Import semantic variables */
+@import url('./theme-semantic-variables.css');

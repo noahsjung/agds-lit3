@@ -20,7 +20,10 @@
     "storybook:test": "test-storybook",
     "build:tokens": "NODE_OPTIONS='--loader ts-node/esm' node scripts/build-tokens.ts",
     "generate:primitives": "NODE_OPTIONS='--loader ts-node/esm' node scripts/generate-primitives.ts",
-    "generate:css": "npm run build:tokens && npm run generate:primitives"
+    "generate:theme-semantics": "NODE_OPTIONS='--loader ts-node/esm' node scripts/generate-theme-semantics.ts",
+    "generate:display-semantics": "NODE_OPTIONS='--loader ts-node/esm' node scripts/generate-display-semantics.ts",
+    "generate:component-variables": "NODE_OPTIONS='--loader ts-node/esm' node scripts/generate-component-variables.ts",
+    "generate:css": "npm run build:tokens && npm run generate:primitives && npm run generate:theme-semantics && npm run generate:display-semantics && npm run generate:component-variables"
   },
   "keywords": [
     "lit",
@@ -48,7 +51,7 @@
     "@storybook/types": "^8.5.2",
     "@storybook/web-components": "^8.0.0",
     "@storybook/web-components-vite": "^8.0.0",
-    "@types/node": "^20.0.0",
+    "@types/node": "^20.17.16",
     "@web/dev-server": "^0.4.0",
     "@web/dev-server-esbuild": "^1.0.0",
     "@web/rollup-plugin-html": "^2.0.0",
@@ -58,6 +61,6 @@
     "storybook": "^8.5.2",
     "style-dictionary": "^4.3.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.3"
   }
 }

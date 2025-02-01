@@ -1,0 +1,786 @@
+{
+  "fileName": "AGDS Unified Lib v0.5.11.6",
+  "textStyles": [
+    {
+      "name": "ugds/display/xl-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/display/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 88,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/display/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/display/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 56,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/xxl-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 40,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/xl-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 32,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/lg-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 28,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/md-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/sm-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/xs-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/heading/xxs-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/subheading/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 26,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/subheading/lg-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 26,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/subheading/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 22,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/subheading/md-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 22,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/subheading/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/subheading/sm-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/body/xxl-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/body/xl-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 22,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/body/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/body/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/body/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/body/xs-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/lg-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/md-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/sm-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/label/xs-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/link/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/link/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/link/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/link/xs-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/value/lg-demi",
+      "fontFamily": "Eurostile LT Std",
+      "fontWeight": "Demi",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/value/md-demi",
+      "fontFamily": "Eurostile LT Std",
+      "fontWeight": "Demi",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "ugds/value/sm-demi",
+      "fontFamily": "Eurostile LT Std",
+      "fontWeight": "Demi",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/display/xl-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 96,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/display/lg-italic",
+      "fontFamily": "Roboto",
+      "fontWeight": "Italic",
+      "fontSize": 88,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/display/lg-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 88,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/display/md-italic",
+      "fontFamily": "Roboto",
+      "fontWeight": "Italic",
+      "fontSize": 72,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/display/sm-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 56,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/xxl-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 40,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/xxl-italic",
+      "fontFamily": "Roboto",
+      "fontWeight": "Italic",
+      "fontSize": 40,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/xl-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 32,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/lg-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 28,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/md-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/sm-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 20,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/xs-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/heading/xxs-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/subheading/lg-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 26,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/subheading/md-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 22,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/subheading/md-italic",
+      "fontFamily": "Roboto",
+      "fontWeight": "Italic",
+      "fontSize": 22,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/subheading/sm-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/subheading/sm-italic",
+      "fontFamily": "Roboto",
+      "fontWeight": "Italic",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.5
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/xxl-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 24,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/xl-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 22,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/sm-italic",
+      "fontFamily": "Roboto",
+      "fontWeight": "Italic",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/body/xs-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/label/lg-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 2
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/label/md-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 2
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/label/sm-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 2
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/label/xs-bold",
+      "fontFamily": "Roboto",
+      "fontWeight": "Bold",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 2
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/link/lg-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/link/md-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/link/sm-medium",
+      "fontFamily": "Roboto",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/link/sm-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "marlo/link/xs-regular",
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0.25
+      },
+      "textCase": "ORIGINAL"
+    }
+  ]
+}

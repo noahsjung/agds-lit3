@@ -1,2 +1,6 @@
+/* Import fonts first */
+@import url('../asset/fonts/fonts.css');
+
+/* Import other primitives */
 @import url('./root.css'); 
 @import url('./primitive-variables.css');

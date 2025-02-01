@@ -1,0 +1,33 @@
+@import url('../primitives-variables/root.css');
+
+/* Mobile Display */
+[data-display='mobile'] {
+  --interactive-spacing-x: var(--space-6);
+  --interactive-spacing-y: var(--space-3);
+  --interactive-font-size: var(--font-size-sm);
+}
+
+/* Tablet Display */
+[data-display='tablet'] {
+  --interactive-spacing-x: var(--space-8);
+  --interactive-spacing-y: var(--space-4);
+  --interactive-font-size: var(--font-size-md);
+}
+
+/* Desktop and 4K Displays */
+[data-display='desktop'],
+[data-display='4k'] {
+  --interactive-spacing-x: var(--space-10);
+  --interactive-spacing-y: var(--space-5);
+  --interactive-font-size: var(--font-size-lg);
+}
+
+/* Medical Displays */
+[data-display^='flacs'],
+[data-display^='florence'],
+[data-display='compass'],
+[data-display='udx'],
+[data-display^='urs'] {
+  --interactive-border-width: var(--border-width-thick);
+  --interactive-font-weight: var(--font-weight-bold);
+} 

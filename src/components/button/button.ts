@@ -1,49 +1,64 @@
 import { LitElement, html, css, unsafeCSS } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
-import buttonStyles from './button.css?inline';
+import styles from './button.css?inline';
 
-@customElement('ds-button')
+@customElement('agds-button')
 export class Button extends LitElement {
-  static override styles = css`${unsafeCSS(buttonStyles)}`;
+  static override styles = css`${unsafeCSS(styles)}`;
 
-  @property({ type: Boolean }) disabled = false;
-  @property({ type: String, reflect: true }) display = '';
-  @property({ type: String, reflect: true }) theme = '';
-  @property({ type: String, reflect: true }) mode = '';
+  @property({ type: String, reflect: true, attribute: 'data-theme' })
+  theme: string = 'ugds';
+
+  @property({ type: String, reflect: true, attribute: 'data-mode' })
+  mode: string = 'light';
+
+  @property({ type: String, reflect: true, attribute: 'data-display' })
+  display: string = 'desktop';
+
+  @property({ type: Boolean, reflect: true })
+  disabled: boolean = false;
 
   override connectedCallback() {
     super.connectedCallback();
-    // Get theme attributes from the closest theme container
-    const themeContainer = this.closest('.theme-container');
-    if (themeContainer) {
-      this.display = themeContainer.getAttribute('data-display') || '';
-      this.theme = themeContainer.getAttribute('data-theme') || '';
-      this.mode = themeContainer.getAttribute('data-mode') || '';
-    }
-
-    // Set up mutation observer to watch for theme changes
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        if (mutation.type === 'attributes') {
-          const container = mutation.target as Element;
-          this.display = container.getAttribute('data-display') || '';
-          this.theme = container.getAttribute('data-theme') || '';
-          this.mode = container.getAttribute('data-mode') || '';
-        }
-      });
+    console.log('Button connected:', {
+      theme: this.theme,
+      mode: this.mode,
+      display: this.display
     });
+    
+    this.setAttribute('data-theme', this.theme);
+    this.setAttribute('data-mode', this.mode);
+    this.setAttribute('data-display', this.display);
 
-    if (themeContainer) {
-      observer.observe(themeContainer, {
-        attributes: true,
-        attributeFilter: ['data-theme', 'data-mode', 'data-display']
+    // Debug CSS variables
+    setTimeout(() => {
+      const computedStyle = getComputedStyle(this);
+      console.log('CSS Variables:', {
+        '--button-bg-color': computedStyle.getPropertyValue('--button-bg-color'),
+        '--primary-color': computedStyle.getPropertyValue('--primary-color'),
+        '--color-blue-500': computedStyle.getPropertyValue('--color-blue-500')
       });
-    }
+    }, 0);
+  }
+
+  override attributeChangedCallback(name: string, old: string, value: string) {
+    super.attributeChangedCallback(name, old, value);
+    console.log('Attribute changed:', { name, old, value });
+    
+    if (name === 'data-theme') this.theme = value;
+    if (name === 'data-mode') this.mode = value;
+    if (name === 'data-display') this.display = value;
   }
 
   override render() {
+    console.log('Rendering button with:', {
+      theme: this.theme,
+      mode: this.mode,
+      display: this.display
+    });
+
     return html`
-      <button 
+      <button
         ?disabled=${this.disabled}
         data-theme=${this.theme}
         data-mode=${this.mode}

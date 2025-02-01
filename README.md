@@ -1,27 +1,92 @@
-# Design System with Lit
+# AGDS Lit3
 
-A modern design system built with Lit, providing reusable web components that follow design best practices.
+A modern design system built with Lit and TypeScript, featuring theme support for UGDS and Marlo.
 
-## Setup
+## Features
 
-1. Install dependencies:
+- Built with Lit 3.0 and TypeScript
+- Theme support (UGDS and Marlo)
+- Display-specific styles
+- Medical display support
+- Design token management with Style Dictionary
+- Storybook integration for component documentation
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+
+### Installation
+
 ```bash
 npm install
 ```
 
-2. Start the development server:
+### Development
+
+Start the development server:
 ```bash
 npm start
 ```
 
-3. Start Storybook:
+Run Storybook:
 ```bash
 npm run storybook
 ```
 
-4. Build the library:
+### Building
+
+Build the library:
 ```bash
 npm run build
+```
+
+Generate CSS variables from design tokens:
+```bash
+npm run generate:css
+```
+
+### Testing
+
+Run tests:
+```bash
+npm test
+```
+
+Run Storybook tests:
+```bash
+npm run storybook:test
+```
+
+## Project Structure
+
+```
+agds-lit3/
+├── src/
+│   ├── components/       # Web components
+│   │   ├── button/
+│   │   ├── ds-button/
+│   │   ├── ds-card/
+│   │   ├── ds-input/
+│   │   ├── ds-modal/
+│   │   └── ds-notification/
+│   │
+│   ├── styles/          # CSS styles and variables
+│   │   ├── primitives-variables/    # Generated token variables
+│   │   ├── semantics-variables/     # Theme-specific variables
+│   │   └── component-variables/     # Component-specific variables
+│   │
+│   └── utils/           # Utility functions
+│
+├── scripts/            # Build and utility scripts
+│
+├── tokens/             # Design token JSON files
+│
+├── stories/           # Storybook stories
+│
+└── test/              # Test files
 ```
 
 ## Development
@@ -107,7 +172,11 @@ export const Primary: Story = {
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request 
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+ISC 

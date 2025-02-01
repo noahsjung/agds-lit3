@@ -1,0 +1,163 @@
+/* UGDS Theme - Light Mode */
+
+.theme-container[data-theme='ugds'][data-mode='light'] {
+  /* Button Colors */
+  --button-bg-color: #007bff;
+  --button-text-color: white;
+  --button-hover-bg-color: #0056b3;
+  --button-active-bg-color: #004085;
+  --button-disabled-bg-color: #e9ecef;
+  --button-disabled-text-color: #6c757d;
+  
+  /* Button Sizes */
+  --button-padding: 8px 16px;
+  --button-border-radius: 4px;
+  --button-font-size: var(--font-size-md);
+  --button-font-weight: var(--font-weight-medium);
+}
+
+/* UGDS Theme - Dark Mode */
+.theme-container[data-theme='ugds'][data-mode='dark'] {
+  --button-bg-color: #0d6efd;
+  --button-text-color: white;
+  --button-hover-bg-color: #0b5ed7;
+  --button-active-bg-color: #0a58ca;
+  --button-disabled-bg-color: #343a40;
+  --button-disabled-text-color: #6c757d;
+}
+
+/* Marlo Theme - Light Mode */
+.theme-container[data-theme='marlo'][data-mode='light'] {
+  --button-bg-color: #20c997;
+  --button-text-color: white;
+  --button-hover-bg-color: #1ba97e;
+  --button-active-bg-color: #168c66;
+  --button-disabled-bg-color: #e9ecef;
+  --button-disabled-text-color: #6c757d;
+}
+
+/* Marlo Theme - Dark Mode */
+.theme-container[data-theme='marlo'][data-mode='dark'] {
+  --button-bg-color: #20c997;
+  --button-text-color: white;
+  --button-hover-bg-color: #1ba97e;
+  --button-active-bg-color: #168c66;
+  --button-disabled-bg-color: #343a40;
+  --button-disabled-text-color: #6c757d;
+}
+
+/* Display-specific styles */
+.theme-container[data-display='mobile'] {
+  --button-padding: 6px 12px;
+  --button-font-size: var(--font-size-sm);
+}
+
+.theme-container[data-display='tablet'] {
+  --button-padding: 8px 16px;
+  --button-font-size: var(--font-size-md);
+}
+
+.theme-container[data-display='desktop'],
+.theme-container[data-display='4k'] {
+  --button-padding: 10px 20px;
+  --button-font-size: var(--font-size-lg);
+}
+
+/* Medical display specific styles */
+.theme-container[data-display^='flacs'],
+.theme-container[data-display^='florence'],
+.theme-container[data-display='compass'],
+.theme-container[data-display='udx'],
+.theme-container[data-display^='urs'] {
+  --button-border-width: 2px;
+  --button-border-color: var(--medical-accent-color);
+  --button-font-weight: var(--font-weight-bold);
+}
+
+
+/* 
+ * Generated from token_agds-components_Mode.json
+ * Generated on: January 31, 2025 at 10:54:48 AM CST
+ */
+ :root {
+    /* Colors */
+    --button-primary-button-label-fill-active: var(--foreground-on-brand-active);
+    --button-primary-button-label-fill-default: var(--foreground-on-brand-default);
+    --button-primary-button-label-fill-disabled: var(--foreground-on-brand-disabled);
+    --button-primary-button-label-fill-focus: var(--foreground-on-brand-focus);
+    --button-primary-button-label-fill-hover: var(--foreground-on-brand-hover);
+    --button-primary-focus-ring-fill: var(--border-focus-ring);
+    --button-primary-leading-icon-fill-active: var(--foreground-on-brand-active);
+    --button-primary-leading-icon-fill-default: var(--foreground-on-brand-default);
+    --button-primary-leading-icon-fill-disabled: var(--foreground-on-brand-disabled);
+    --button-primary-leading-icon-fill-focus: var(--foreground-on-brand-focus);
+    --button-primary-leading-icon-fill-hover: var(--foreground-on-brand-hover);
+    --button-primary-main-container-fill-active: var(--background-brand-active);
+    --button-primary-main-container-fill-default: var(--background-brand-default);
+    --button-primary-main-container-fill-disabled: var(--background-brand-disabled);
+    --button-primary-main-container-fill-focus: var(--background-brand-default);
+    --button-primary-main-container-fill-hover: var(--background-brand-hover);
+    --button-primary-trailing-icon-fill-active: var(--foreground-on-brand-active);
+    --button-primary-trailing-icon-fill-default: var(--foreground-on-brand-default);
+    --button-primary-trailing-icon-fill-disabled: var(--foreground-on-brand-disabled);
+    --button-primary-trailing-icon-fill-focus: var(--foreground-on-brand-focus);
+    --button-primary-trailing-icon-fill-hover: var(--foreground-on-brand-hover);
+    --button-secondary-button-label-fill-active: var(--foreground-on-brand-inverse-active);
+    --button-secondary-button-label-fill-default: var(--foreground-on-brand-inverse-default);
+    --button-secondary-button-label-fill-disabled: var(--foreground-on-brand-inverse-disabled);
+    --button-secondary-button-label-fill-focus: var(--foreground-on-brand-inverse-focus);
+    --button-secondary-button-label-fill-hover: var(--foreground-on-brand-inverse-hover);
+    --button-secondary-focus-ring-fill: var(--border-focus-ring);
+    --button-secondary-leading-icon-fill-active: var(--foreground-on-brand-inverse-active);
+    --button-secondary-leading-icon-fill-default: var(--foreground-on-brand-inverse-default);
+    --button-secondary-leading-icon-fill-disabled: var(--foreground-on-brand-inverse-disabled);
+    --button-secondary-leading-icon-fill-focus: var(--foreground-on-brand-inverse-focus);
+    --button-secondary-leading-icon-fill-hover: var(--foreground-on-brand-inverse-hover);
+    --button-secondary-main-container-border-color-default: var(--border-brand-inverse-default);
+    --button-secondary-main-container-border-color-disabled: var(--border-brand-inverse-disabled);
+    --button-secondary-main-container-border-color-focus: var(--border-brand-inverse-focus);
+    --button-secondary-main-container-fill-active: var(--background-brand-inverse-active);
+    --button-secondary-main-container-fill-default: var(--background-brand-inverse-default);
+    --button-secondary-main-container-fill-disabled: var(--background-brand-inverse-disabled);
+    --button-secondary-main-container-fill-focus: var(--background-brand-inverse-focus);
+    --button-secondary-main-container-fill-hover: var(--background-brand-inverse-hover);
+    --button-secondary-trailing-icon-fill-active: var(--foreground-on-brand-inverse-active);
+    --button-secondary-trailing-icon-fill-default: var(--foreground-on-brand-inverse-default);
+    --button-secondary-trailing-icon-fill-disabled: var(--foreground-on-brand-inverse-disabled);
+    --button-secondary-trailing-icon-fill-focus: var(--foreground-on-brand-inverse-focus);
+    --button-secondary-trailing-icon-fill-hover: var(--foreground-on-brand-inverse-hover);
+  
+    /* Sizes */
+    --button-primary-focus-ring-border-width: var(--border-width-base);
+    --button-primary-focus-ring-corner-radius: var(--corner-radius-pill);
+    --button-primary-focus-ring-spacing: var(--border-focus-ring-spacing);
+    --button-primary-leading-icon-height: var(--icon-size-sm);
+    --button-primary-leading-icon-width: var(--icon-size-sm);
+    --button-primary-main-container-border-radius: var(--corner-radius-pill);
+    --button-primary-main-container-gap: var(--spacing-sm);
+    --button-primary-main-container-height: var(--sizing-xxxl);
+    --button-primary-main-container-padding-left: var(--spacing-lg);
+    --button-primary-main-container-padding-right: var(--spacing-lg);
+    --button-primary-trailing-icon-height: var(--icon-size-sm);
+    --button-primary-trailing-icon-width: var(--icon-size-sm);
+    --button-secondary-focus-ring-border-width: var(--border-width-base);
+    --button-secondary-focus-ring-corner-radius: var(--corner-radius-pill);
+    --button-secondary-focus-ring-spacing: var(--border-focus-ring-spacing);
+    --button-secondary-leading-icon-height: var(--icon-size-sm);
+    --button-secondary-leading-icon-width: var(--icon-size-sm);
+    --button-secondary-main-container-border-radius: var(--corner-radius-pill);
+    --button-secondary-main-container-border-width: var(--border-width-base);
+    --button-secondary-main-container-gap: var(--spacing-sm);
+    --button-secondary-main-container-height: var(--sizing-xxxl);
+    --button-secondary-main-container-padding-left: var(--spacing-lg);
+    --button-secondary-main-container-padding-right: var(--spacing-lg);
+    --button-secondary-trailing-icon-height: var(--icon-size-sm);
+    --button-secondary-trailing-icon-width: var(--icon-size-sm);
+  
+    /* Other */
+    --button-primary-component-name: button/primary;
+    --button-primary-version: 1.2.0;
+    --button-secondary-component-name: button/primary;
+    --button-secondary-version: 1.2.0;
+  }
+  

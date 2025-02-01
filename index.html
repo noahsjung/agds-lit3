@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System Demo</title>
+    <script type="module" src="/src/index.ts"></script>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .button-container {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Design System Components</h1>
+    
+    <section>
+        <h2>Buttons</h2>
+        <div class="button-container">
+            <ds-button>Default Button</ds-button>
+            <ds-button variant="secondary">Secondary Button</ds-button>
+            <ds-button disabled>Disabled Button</ds-button>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('ds-button').forEach(button => {
+            button.addEventListener('ds-click', (e) => {
+                console.log('Button clicked:', e.detail);
+            });
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,102 @@
+/* UGDS Theme - Light Mode */
+.theme-container[data-theme='ugds'][data-mode='light'] {
+  /* Colors */
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --error-color: #dc3545;
+  --border-color: #dee2e6;
+
+  /* Typography */
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* UGDS Theme - Dark Mode */
+.theme-container[data-theme='ugds'][data-mode='dark'] {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --success-color: #198754;
+  --warning-color: #ffc107;
+  --error-color: #dc3545;
+  --border-color: #2d2d2d;
+}
+
+/* Marlo Theme - Light Mode */
+.theme-container[data-theme='marlo'][data-mode='light'] {
+  --background-color: #f8f9fa;
+  --text-color: #212529;
+  --primary-color: #20c997;
+  --secondary-color: #6610f2;
+  --success-color: #198754;
+  --warning-color: #fd7e14;
+  --error-color: #dc3545;
+  --border-color: #e9ecef;
+}
+
+/* Marlo Theme - Dark Mode */
+.theme-container[data-theme='marlo'][data-mode='dark'] {
+  --background-color: #212529;
+  --text-color: #f8f9fa;
+  --primary-color: #20c997;
+  --secondary-color: #6610f2;
+  --success-color: #198754;
+  --warning-color: #fd7e14;
+  --error-color: #dc3545;
+  --border-color: #343a40;
+}
+
+/* Display-specific styles */
+.theme-container[data-display='mobile'] {
+  --container-padding: var(--spacing-sm);
+  --container-max-width: 100%;
+}
+
+.theme-container[data-display='tablet'] {
+  --container-padding: var(--spacing-md);
+  --container-max-width: 100%;
+}
+
+.theme-container[data-display='desktop'],
+.theme-container[data-display='4k'] {
+  --container-padding: var(--spacing-lg);
+  --container-max-width: 100%;
+}
+
+/* Medical display specific styles */
+.theme-container[data-display^='flacs'],
+.theme-container[data-display^='florence'],
+.theme-container[data-display='compass'],
+.theme-container[data-display='udx'],
+.theme-container[data-display^='urs'] {
+  --medical-accent-color: #00b4d8;
+  --medical-warning-color: #ffd700;
+  --medical-error-color: #ff4d4d;
+  --container-padding: var(--spacing-md);
+  --container-max-width: 100%;
+  --medical-border-color: var(--medical-accent-color);
+} 

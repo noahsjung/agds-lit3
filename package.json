@@ -1,0 +1,62 @@
+{
+  "name": "agds-lit3",
+  "version": "1.0.0",
+  "description": "A modern design system built with Lit",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "web-dev-server --config web-dev-server.config.mjs",
+    "build": "rimraf dist && rollup -c rollup.config.js",
+    "lint": "eslint --ext .ts,.html . --ignore-path .gitignore",
+    "format": "prettier \"**/*.{js,ts,html}\" --write --ignore-path .gitignore",
+    "test": "web-test-runner \"test/**/*.test.ts\" --coverage --node-resolve --playwright --browsers chromium",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "storybook:test": "test-storybook",
+    "build:tokens": "NODE_OPTIONS='--loader ts-node/esm' node scripts/build-tokens.ts",
+    "generate:css": "npm run build:tokens"
+  },
+  "keywords": [
+    "lit",
+    "web-components",
+    "design-system",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lit/react": "^1.0.0",
+    "lit": "^3.0.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.4",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-replace": "^5.0.0",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/addon-interactions": "^8.0.0",
+    "@storybook/addon-links": "^8.0.0",
+    "@storybook/blocks": "^8.5.2",
+    "@storybook/test": "^8.5.2",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/types": "^8.5.2",
+    "@storybook/web-components": "^8.0.0",
+    "@storybook/web-components-vite": "^8.0.0",
+    "@types/node": "^20.0.0",
+    "@web/dev-server": "^0.4.0",
+    "@web/dev-server-esbuild": "^1.0.0",
+    "@web/rollup-plugin-html": "^2.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-summary": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "storybook": "^8.5.2",
+    "style-dictionary": "^4.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

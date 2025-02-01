@@ -1,0 +1,90 @@
+@import '../../styles/component-variables/button-variables.css';
+
+:host {
+  display: inline-block;
+}
+
+button {
+  font-family: var(--font-family);
+  font-size: var(--button-font-size, var(--font-size-md));
+  font-weight: var(--button-font-weight, var(--font-weight-medium));
+  padding: var(--button-padding, 8px 16px);
+  border-radius: var(--button-border-radius, 4px);
+  border: var(--button-border-width, 0) solid var(--button-border-color, transparent);
+  cursor: pointer;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  transition: all 0.2s ease-in-out;
+  box-shadow: var(--shadow-sm);
+  outline: none;
+}
+
+/* Theme-specific styles */
+button[data-theme='ugds'][data-mode='light'] {
+  background-color: var(--button-bg-color, #007bff);
+  color: var(--button-text-color, white);
+}
+
+button[data-theme='ugds'][data-mode='dark'] {
+  background-color: var(--button-bg-color, #0d6efd);
+  color: var(--button-text-color, white);
+}
+
+button[data-theme='marlo'][data-mode='light'] {
+  background-color: var(--button-bg-color, #20c997);
+  color: var(--button-text-color, white);
+}
+
+button[data-theme='marlo'][data-mode='dark'] {
+  background-color: var(--button-bg-color, #20c997);
+  color: var(--button-text-color, white);
+}
+
+button:hover {
+  background-color: var(--button-hover-bg-color);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: var(--button-active-bg-color);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(0);
+}
+
+button:disabled {
+  background-color: var(--button-disabled-bg-color);
+  color: var(--button-disabled-text-color);
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  opacity: 0.7;
+}
+
+/* Display-specific styles */
+button[data-display='mobile'] {
+  padding: var(--button-padding, 6px 12px);
+  font-size: var(--button-font-size, 14px);
+}
+
+button[data-display='tablet'] {
+  padding: var(--button-padding, 8px 16px);
+  font-size: var(--button-font-size, 16px);
+}
+
+button[data-display='desktop'],
+button[data-display='4k'] {
+  padding: var(--button-padding, 10px 20px);
+  font-size: var(--button-font-size, 18px);
+}
+
+/* Medical display specific styles */
+button[data-display^='flacs'],
+button[data-display^='florence'],
+button[data-display='compass'],
+button[data-display='udx'],
+button[data-display^='urs'] {
+  border-width: var(--button-border-width, 2px);
+  border-color: var(--button-border-color, var(--medical-accent-color));
+  font-weight: var(--button-font-weight, 700);
+} 

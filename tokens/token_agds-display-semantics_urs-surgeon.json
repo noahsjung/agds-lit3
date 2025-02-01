@@ -1,0 +1,528 @@
+{
+  "border": {
+    "focus-ring": {
+      "spacing": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "width": {
+      "base": {
+        "$type": "number",
+        "$value": "{dimensions.0075}"
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{dimensions.0150}"
+      },
+      "none": {
+        "$type": "number",
+        "$value": "{dimensions.0000}"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{dimensions.0050}"
+      }
+    }
+  },
+  "corner-radius": {
+    "base": {
+      "$type": "number",
+      "$value": "{dimensions.0150}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{dimensions.0300}"
+    },
+    "none": {
+      "$type": "number",
+      "$value": "{dimensions.0000}"
+    },
+    "pill": {
+      "$type": "number",
+      "$value": "{dimensions.9999}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{dimensions.0100}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{dimensions.0050}"
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": "{dimensions.0600}"
+    }
+  },
+  "display": {
+    "device-type": {
+      "$type": "string",
+      "$value": "urs"
+    },
+    "ppi": {
+      "$type": "string",
+      "$value": "140"
+    },
+    "screen-height": {
+      "$type": "number",
+      "$value": 480
+    },
+    "screen-width": {
+      "$type": "number",
+      "$value": 800
+    }
+  },
+  "grid": {
+    "bottom-margin": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    },
+    "column-width": {
+      "$type": "number",
+      "$value": "{dimensions.0000}"
+    },
+    "columns": {
+      "$type": "number",
+      "$value": "{dimensions.0200}"
+    },
+    "gutters-gap": {
+      "$type": "number",
+      "$value": "{dimensions.0600}"
+    },
+    "margin": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    },
+    "right-margin": {
+      "$type": "number",
+      "$value": 0
+    },
+    "row-gutters-gap": {
+      "$type": "number",
+      "$value": "{dimensions.0000}"
+    },
+    "row-height": {
+      "$type": "number",
+      "$value": "{dimensions.0200}"
+    },
+    "row-offset": {
+      "$type": "number",
+      "$value": "{dimensions.0000}"
+    },
+    "rows": {
+      "$type": "number",
+      "$value": "{dimensions.9999}"
+    },
+    "top-margin": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    }
+  },
+  "icon-size": {
+    "base": {
+      "$type": "number",
+      "$value": "{dimensions.0600}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{dimensions.0800}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{dimensions.0500}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{dimensions.1200}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": "{dimensions.2000}"
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": "{dimensions.0350}"
+    }
+  },
+  "sizing": {
+    "4xl": {
+      "$type": "number",
+      "$value": "{dimensions.2000}"
+    },
+    "5xl": {
+      "$type": "number",
+      "$value": "{dimensions.2800}"
+    },
+    "base": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{dimensions.0500}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{dimensions.0300}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{dimensions.0600}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{dimensions.0200}"
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": "{dimensions.0800}"
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": "{dimensions.0100}"
+    },
+    "xxxl": {
+      "$type": "number",
+      "$value": "{dimensions.1000}"
+    }
+  },
+  "spacing": {
+    "3xl": {
+      "$type": "number",
+      "$value": "{dimensions.1000}"
+    },
+    "4xl": {
+      "$type": "number",
+      "$value": "{dimensions.1200}"
+    },
+    "base": {
+      "$type": "number",
+      "$value": "{dimensions.0200}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{dimensions.0400}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{dimensions.0300}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{dimensions.0100}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{dimensions.0600}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{dimensions.0050}"
+    },
+    "xxl": {
+      "$type": "number",
+      "$value": "{dimensions.0800}"
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": "{dimensions.0025}"
+    }
+  },
+  "text": {
+    "font-size": {
+      "body": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.0550}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.0600}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.0400}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{text.font-size.0650}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.font-size.0350}"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "{text.font-size.0700}"
+        }
+      },
+      "display": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.2200}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.2400}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.1800}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{text.font-size.3000}"
+        }
+      },
+      "heading": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.0700}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.0800}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.0600}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{text.font-size.1000}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.font-size.0500}"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "{text.font-size.1200}"
+        },
+        "xxs": {
+          "$type": "number",
+          "$value": "{text.font-size.0450}"
+        }
+      },
+      "label": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.0550}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.0600}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.0450}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.font-size.0400}"
+        }
+      },
+      "link": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.0550}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.0600}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.0450}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.font-size.0400}"
+        }
+      },
+      "subheading": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.0650}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.0750}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.0550}"
+        }
+      },
+      "value": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.font-size.0750}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.font-size.1500}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.font-size.0550}"
+        }
+      }
+    },
+    "letter-spacing": {
+      "xxs": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "line-height": {
+      "body": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.line-height.0400}"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "{text.line-height.1000}"
+        }
+      },
+      "display": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.3000}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.3200}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.2400}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{text.line-height.4000}"
+        }
+      },
+      "heading": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.1000}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.1000}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{text.line-height.1400}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "{text.line-height.1600}"
+        },
+        "xxs": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        }
+      },
+      "label": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        }
+      },
+      "link": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        },
+        "xs": {
+          "$type": "number",
+          "$value": "{text.line-height.0600}"
+        }
+      },
+      "subheading": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.1000}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        }
+      },
+      "value": {
+        "base": {
+          "$type": "number",
+          "$value": "{text.line-height.1000}"
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{text.line-height.2000}"
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{text.line-height.0800}"
+        }
+      }
+    }
+  }
+}

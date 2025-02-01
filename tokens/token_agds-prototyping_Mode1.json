@@ -1,0 +1,336 @@
+{
+  "list-item-group": {
+    "item-1-label": {
+      "$type": "string",
+      "$value": "Item 1"
+    },
+    "item-10-label": {
+      "$type": "string",
+      "$value": "Item 10"
+    },
+    "item-11-label": {
+      "$type": "string",
+      "$value": "Item 11"
+    },
+    "item-12-label": {
+      "$type": "string",
+      "$value": "Item 12"
+    },
+    "item-2-label": {
+      "$type": "string",
+      "$value": "Item 2"
+    },
+    "item-3-label": {
+      "$type": "string",
+      "$value": "Item 3"
+    },
+    "item-4-label": {
+      "$type": "string",
+      "$value": "Item 4"
+    },
+    "item-5-label": {
+      "$type": "string",
+      "$value": "Item 5"
+    },
+    "item-6-label": {
+      "$type": "string",
+      "$value": "Item 6"
+    },
+    "item-7-label": {
+      "$type": "string",
+      "$value": "Item 7"
+    },
+    "item-8-label": {
+      "$type": "string",
+      "$value": "Item 8"
+    },
+    "item-9-label": {
+      "$type": "string",
+      "$value": "Item 9"
+    },
+    "item-selected": {
+      "$type": "string",
+      "$value": "none"
+    }
+  },
+  "radio-button-group": {
+    "btn-1": {
+      "$type": "string",
+      "$value": "1"
+    },
+    "btn-1-is-preselected": {
+      "$type": "boolean",
+      "$value": true
+    },
+    "btn-1-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-10": {
+      "$type": "string",
+      "$value": "10"
+    },
+    "btn-10-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-11": {
+      "$type": "string",
+      "$value": "11"
+    },
+    "btn-11-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-12": {
+      "$type": "string",
+      "$value": "12"
+    },
+    "btn-12-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-13": {
+      "$type": "string",
+      "$value": "13"
+    },
+    "btn-13-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-14": {
+      "$type": "string",
+      "$value": "14"
+    },
+    "btn-14-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-15": {
+      "$type": "string",
+      "$value": "15"
+    },
+    "btn-15-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-16": {
+      "$type": "string",
+      "$value": "16"
+    },
+    "btn-16-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-17": {
+      "$type": "string",
+      "$value": "17"
+    },
+    "btn-17-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-18": {
+      "$type": "string",
+      "$value": "18"
+    },
+    "btn-18-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-19": {
+      "$type": "string",
+      "$value": "19"
+    },
+    "btn-19-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-2": {
+      "$type": "string",
+      "$value": "2"
+    },
+    "btn-2-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-20": {
+      "$type": "string",
+      "$value": "20"
+    },
+    "btn-20-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-21": {
+      "$type": "string",
+      "$value": "21"
+    },
+    "btn-21-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-22": {
+      "$type": "string",
+      "$value": "22"
+    },
+    "btn-22-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-23": {
+      "$type": "string",
+      "$value": "23"
+    },
+    "btn-23-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-24": {
+      "$type": "string",
+      "$value": "24"
+    },
+    "btn-24-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-3": {
+      "$type": "string",
+      "$value": "3"
+    },
+    "btn-3-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-4": {
+      "$type": "string",
+      "$value": "4"
+    },
+    "btn-4-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-5": {
+      "$type": "string",
+      "$value": "5"
+    },
+    "btn-5-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-6": {
+      "$type": "string",
+      "$value": "6"
+    },
+    "btn-6-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-7": {
+      "$type": "string",
+      "$value": "7"
+    },
+    "btn-7-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-8": {
+      "$type": "string",
+      "$value": "8"
+    },
+    "btn-8-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-9": {
+      "$type": "string",
+      "$value": "9"
+    },
+    "btn-9-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "last-selected": {
+      "$type": "string",
+      "$value": "none"
+    },
+    "selected": {
+      "$type": "string",
+      "$value": "none"
+    }
+  },
+  "segmented-button-group": {
+    "btn-1": {
+      "$type": "string",
+      "$value": "1"
+    },
+    "btn-1-is-preselected": {
+      "$type": "boolean",
+      "$value": true
+    },
+    "btn-2": {
+      "$type": "string",
+      "$value": "2"
+    },
+    "btn-2-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-3": {
+      "$type": "string",
+      "$value": "3"
+    },
+    "btn-3-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-4": {
+      "$type": "string",
+      "$value": "4"
+    },
+    "btn-4-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-5": {
+      "$type": "string",
+      "$value": "5"
+    },
+    "btn-5-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-6": {
+      "$type": "string",
+      "$value": "6"
+    },
+    "btn-6-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-7": {
+      "$type": "string",
+      "$value": "7"
+    },
+    "btn-7-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "btn-8": {
+      "$type": "string",
+      "$value": "8"
+    },
+    "btn-8-is-selected": {
+      "$type": "boolean",
+      "$value": false
+    },
+    "last-selected": {
+      "$type": "string",
+      "$value": "none"
+    },
+    "selected": {
+      "$type": "string",
+      "$value": "none"
+    }
+  }
+}

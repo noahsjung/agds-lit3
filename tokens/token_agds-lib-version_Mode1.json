@@ -1,0 +1,16 @@
+{
+  "library": {
+    "last-published": {
+      "$type": "string",
+      "$value": "1/7/25"
+    },
+    "name": {
+      "$type": "string",
+      "$value": "AGDS Unified Library"
+    },
+    "version": {
+      "$type": "string",
+      "$value": "0.3.10.1"
+    }
+  }
+}

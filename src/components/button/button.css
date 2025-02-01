@@ -1,5 +1,5 @@
-/* Import root variables */
-@import url('../../styles/primitives-variables/root.css');
+/* Import all required variables */
+@import url('../../styles/index.css');
 
 /* Import component variables */
 @import '../../styles/component-variables/button-variables.css';

@@ -19,7 +19,8 @@
     "build-storybook": "storybook build",
     "storybook:test": "test-storybook",
     "build:tokens": "NODE_OPTIONS='--loader ts-node/esm' node scripts/build-tokens.ts",
-    "generate:css": "npm run build:tokens"
+    "generate:primitives": "NODE_OPTIONS='--loader ts-node/esm' node scripts/generate-primitives.ts",
+    "generate:css": "npm run build:tokens && npm run generate:primitives"
   },
   "keywords": [
     "lit",

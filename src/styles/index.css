@@ -1,0 +1,4 @@
+/* Import all variables in correct order */
+@import url('./primitives-variables/index.css');
+@import url('./semantics-variables/index.css');
+@import url('./component-variables/index.css'); 

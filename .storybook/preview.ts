@@ -3,14 +3,8 @@ import { html } from 'lit';
 import { DISPLAY_VIEWPORT_SIZES } from '../src/styles/viewport-config';
 import type { DisplayType } from '../src/styles/theme-config';
 
-// Import CSS files in order of specificity
-import '../src/styles/primitives-variables/root.css';
-import '../src/styles/semantics-variables/themes/ugds-light.css';
-import '../src/styles/semantics-variables/themes/ugds-dark.css';
-import '../src/styles/semantics-variables/themes/marlo-light.css';
-import '../src/styles/semantics-variables/themes/marlo-dark.css';
-import '../src/styles/semantics-variables/display.css';
-import '../src/styles/component-variables/button-variables.css';
+// Import all styles from the index file
+import '../src/styles/index.css';
 
 // Create viewports from our display configurations
 const viewports = Object.entries(DISPLAY_VIEWPORT_SIZES).reduce((acc, [name, dimensions]) => {

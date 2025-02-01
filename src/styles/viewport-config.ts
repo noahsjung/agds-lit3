@@ -1,4 +1,4 @@
-import type { DisplayType } from './theme-config';
+import type { DisplayType } from './theme-config.js';
 
 // Re-export the type
 export type { DisplayType };

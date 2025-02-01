@@ -33,7 +33,7 @@ export default meta;
 
 type Story = StoryObj;
 
-export const Primary: Story = {
+export const Default: Story = {
   args: {
     'data-theme': 'ugds',
     'data-mode': 'light',
@@ -52,7 +52,7 @@ export const Primary: Story = {
   `,
 };
 
-export const AllThemesAndModes: Story = {
+export const ThemeShowcase: Story = {
   render: () => html`
     <div style="display: grid; gap: 2rem;">
       <div>

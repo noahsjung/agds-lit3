@@ -1,0 +1,81 @@
+/* Import primitive variables first */
+@import '../../styles/primitives-variables/root.css';
+@import '../../styles/primitives-variables/primitive-variables.css';
+
+/* Then import semantic and component variables */
+@import '../../styles/semantics-variables/index.css';
+@import '../../styles/component-variables/component-variables.css';
+@import '../../styles/component-variables/button-variables.css';
+
+agds-secondary-button .secondary-button {
+  /* Base styles */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  min-height: 40px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-base);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid var(--color-primary-600);
+  background-color: transparent;
+  color: var(--color-primary-600);
+  outline: none;
+}
+
+agds-secondary-button .secondary-button:hover {
+  background-color: var(--color-primary-50);
+  border-color: var(--color-primary-700);
+  color: var(--color-primary-700);
+}
+
+agds-secondary-button .secondary-button:active {
+  background-color: var(--color-primary-100);
+  border-color: var(--color-primary-800);
+  color: var(--color-primary-800);
+}
+
+agds-secondary-button .secondary-button:focus {
+  box-shadow: 0 0 0 4px var(--color-primary-100);
+}
+
+agds-secondary-button .secondary-button:disabled {
+  background-color: var(--color-gray-100);
+  border-color: var(--color-gray-300);
+  color: var(--color-gray-400);
+  cursor: not-allowed;
+}
+
+/* Dark mode styles */
+.theme-container[data-mode="dark"] agds-secondary-button .secondary-button {
+  border-color: var(--color-primary-400);
+  color: var(--color-primary-400);
+  background-color: transparent;
+}
+
+.theme-container[data-mode="dark"] agds-secondary-button .secondary-button:hover {
+  background-color: var(--color-primary-900);
+  border-color: var(--color-primary-300);
+  color: var(--color-primary-300);
+}
+
+.theme-container[data-mode="dark"] agds-secondary-button .secondary-button:active {
+  background-color: var(--color-primary-800);
+  border-color: var(--color-primary-200);
+  color: var(--color-primary-200);
+}
+
+.theme-container[data-mode="dark"] agds-secondary-button .secondary-button:focus {
+  box-shadow: 0 0 0 4px var(--color-primary-900);
+}
+
+.theme-container[data-mode="dark"] agds-secondary-button .secondary-button:disabled {
+  background-color: var(--color-gray-800);
+  border-color: var(--color-gray-600);
+  color: var(--color-gray-500);
+} 

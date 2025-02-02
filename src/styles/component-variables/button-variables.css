@@ -5,38 +5,27 @@
 @import '../semantics-variables/themes/marlo-dark.css';
 @import '../semantics-variables/display.css';
 
-/* Button Component Variables */
-:root[data-theme][data-mode],
-*[data-theme][data-mode] {
+/* Button styles for elements within a themed container */
+.theme-container[data-theme][data-mode] button,
+.theme-container[data-theme][data-mode] .button {
   /* Base button styles */
   --button-bg-color: var(--primary-color);
-  --button-text-color: var(--color-white);
-  --button-font-family: var(--font-family-base);
-  --button-font-size: var(--font-size-base);
-  --button-font-weight: var(--font-weight-medium);
-  --button-padding: var(--space-4) var(--space-8);
-  --button-border-radius: var(--border-radius-md);
-  --button-border-width: var(--border-width-none);
-  --button-border-color: transparent;
-  --button-shadow: var(--shadow-sm);
-
-  /* Hover state */
+  --button-text-color: var(--text-on-primary);
+  --button-font-family: var(--text-body-font-family);
+  --button-font-size: var(--text-font-size-body-base);
+  --button-padding: var(--spacing-base);
+  --button-border-radius: var(--corner-radius-base);
+  
+  /* States */
   --button-hover-bg-color: var(--primary-hover);
-  --button-hover-shadow: var(--shadow-md);
-
-  /* Active state */
   --button-active-bg-color: var(--primary-active);
-  --button-active-shadow: var(--shadow-sm);
-
-  /* Disabled state */
-  --button-disabled-bg-color: var(--color-gray-200);
-  --button-disabled-text-color: var(--color-gray-600);
-  --button-disabled-opacity: 0.7;
+  --button-disabled-bg-color: var(--background-disabled);
+  --button-disabled-text-color: var(--text-disabled);
 }
 
-/* Dark mode overrides */
-/* :root[data-theme][data-mode="dark"],
-*[data-theme][data-mode="dark"] {
+/* Dark mode specific overrides */
+.theme-container[data-theme][data-mode="dark"] button,
+.theme-container[data-theme][data-mode="dark"] .button {
   --button-disabled-bg-color: var(--color-gray-800);
   --button-disabled-text-color: var(--color-gray-400);
-} */
+}

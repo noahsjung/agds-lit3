@@ -35,10 +35,6 @@ button {
   transition: all var(--transition-normal, 0.3s) var(--transition-timing-ease, ease-in-out);
   box-shadow: var(--button-shadow, none);
   outline: none;
-  font-size: var(--text-font-size-label-sm, 14px);
-  font-style: normal;
-  font-weight: 500;
-  line-height: var(--text-line-height-label-sm, 16px)
 }
 
 button:hover:not(:disabled) {

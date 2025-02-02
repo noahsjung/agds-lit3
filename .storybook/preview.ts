@@ -43,19 +43,10 @@ const preview: Preview = {
       // Set background color based on mode
       const backgroundColor = mode === 'dark' ? 'var(--color-gray-900)' : 'var(--color-white)';
       const textColor = mode === 'dark' ? 'var(--color-white)' : 'var(--color-black)';
-
-      console.log('Storybook decorator:', { theme, mode, display });
       
       return html`
         <div 
           class="theme-container"
-          style="
-            padding: 2rem;
-            min-height: 200px;
-            background-color: ${backgroundColor};
-            color: ${textColor};
-            transition: background-color 0.3s, color 0.3s;
-          "
           data-theme=${theme}
           data-mode=${mode}
           data-display=${display}

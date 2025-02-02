@@ -30,27 +30,6 @@
   --display-sm-regular-line-height: var(--ugds-display-sm-regular-line-height);
   --display-sm-regular-font-style: var(--ugds-display-sm-regular-font-style);
 
-  --display-lg-bold-font-family: var(--ugds-display-lg-bold-font-family);
-  --display-lg-bold-font-weight: var(--ugds-display-lg-bold-font-weight);
-  --display-lg-bold-font-size: var(--ugds-display-lg-bold-font-size);
-  --display-lg-bold-letter-spacing: var(--ugds-display-lg-bold-letter-spacing);
-  --display-lg-bold-line-height: var(--ugds-display-lg-bold-line-height);
-  --display-lg-bold-font-style: var(--ugds-display-lg-bold-font-style);
-
-  --display-md-italic-font-family: var(--ugds-display-md-italic-font-family);
-  --display-md-italic-font-weight: var(--ugds-display-md-italic-font-weight);
-  --display-md-italic-font-size: var(--ugds-display-md-italic-font-size);
-  --display-md-italic-letter-spacing: var(--ugds-display-md-italic-letter-spacing);
-  --display-md-italic-line-height: var(--ugds-display-md-italic-line-height);
-  --display-md-italic-font-style: var(--ugds-display-md-italic-font-style);
-
-  --display-sm-bold-font-family: var(--ugds-display-sm-bold-font-family);
-  --display-sm-bold-font-weight: var(--ugds-display-sm-bold-font-weight);
-  --display-sm-bold-font-size: var(--ugds-display-sm-bold-font-size);
-  --display-sm-bold-letter-spacing: var(--ugds-display-sm-bold-letter-spacing);
-  --display-sm-bold-line-height: var(--ugds-display-sm-bold-line-height);
-  --display-sm-bold-font-style: var(--ugds-display-sm-bold-font-style);
-
   /* Heading Styles */
   --heading-xxl-medium-font-family: var(--ugds-heading-xxl-medium-font-family);
   --heading-xxl-medium-font-weight: var(--ugds-heading-xxl-medium-font-weight);
